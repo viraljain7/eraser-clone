@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-black dark:bg-gray-900">
-        <div className="flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+        <div className="flex  pt-[40px] h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
           <Image
             className="bg-white"
             src="/logo.png"

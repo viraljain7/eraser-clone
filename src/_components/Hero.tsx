@@ -2,8 +2,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-gray-200">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+    <section className="bg-black">
+      <div className=" flex justify-center items-baseline pt-44">
+        <h2 className="text-white border border-white rounded-xl py-2  px-4 ">
+          See what’s new | <span className="text-blue-300">AI Diagrams</span>
+        </h2>
+      </div>
+      <div className="mx-auto h-screen max-w-screen-xl px-4 py-16 ">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl text-white font-extrabold sm:text-5xl">
             <strong className="font-extrabold text-blue-400 sm:block">
@@ -12,7 +17,7 @@ const Hero = () => {
             for engineering teams
           </h1>
 
-          <p className="mt-4 sm:text-xl/relaxed">
+          <p className="mt-4 sm:text-xl/relaxed text-white">
             All-in-one markdown editor, collaborative canvas, and
             diagram-as-code builder
           </p>
