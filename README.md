@@ -1,1 +1,2 @@
 shadcn ui
+hyper ui
