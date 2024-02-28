@@ -1,4 +1,4 @@
 shadcn ui
 hyper ui
 
-kidle
+kidle auth
